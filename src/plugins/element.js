@@ -17,13 +17,17 @@ import {
   MenuItemGroup,
   Message,
   MessageBox,
+  Option,
   Pagination,
   Row,
+  Select,
   Submenu,
   Switch,
   Table,
   TableColumn,
-  Tooltip
+  Tag,
+  Tooltip,
+  Tree
 } from 'element-ui'
 import Vue from 'vue'
 
@@ -33,6 +37,8 @@ Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
 
 Vue.use(Button)
+  .use(Select)
+  .use(Option)
   .use(Form)
   .use(FormItem)
   .use(Input)
@@ -55,3 +61,5 @@ Vue.use(Button)
   .use(Tooltip)
   .use(Pagination)
   .use(Dialog)
+  .use(Tag)
+  .use(Tree)
