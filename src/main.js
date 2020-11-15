@@ -1,5 +1,6 @@
 import axios from 'axios'
 import Vue from 'vue'
+import TreeTable from 'vue-table-with-tree-grid'
 import App from './App.vue'
 import './assets/css/global.css'
 import './plugins/element.js'
@@ -16,6 +17,9 @@ axios.interceptors.request.use(config => {
   config.headers.Authorization = sessionStorage.getItem('token')
   return config
 })
+
+//全局添加 vue-table-with-tree-grid组件
+Vue.component('tree-table', TreeTable)
 
 new Vue({
   router,

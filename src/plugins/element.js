@@ -4,6 +4,7 @@ import {
   BreadcrumbItem,
   Button,
   Card,
+  Cascader,
   Col,
   Container,
   Dialog,
@@ -63,3 +64,4 @@ Vue.use(Button)
   .use(Dialog)
   .use(Tag)
   .use(Tree)
+  .use(Cascader)

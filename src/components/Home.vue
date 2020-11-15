@@ -29,7 +29,7 @@
             v-for="item in menusList"
             :key="item.id"
           >
-            <!-- 以及菜单模板区 -->
+            <!-- 一级菜单模板区 -->
             <template slot="title">
               <!-- 图标 -->
               <i :class="iconObj[item.id]"></i>
