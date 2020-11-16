@@ -1,4 +1,5 @@
 import {
+  Alert,
   Aside,
   Breadcrumb,
   BreadcrumbItem,
@@ -26,6 +27,8 @@ import {
   Switch,
   Table,
   TableColumn,
+  TabPane,
+  Tabs,
   Tag,
   Tooltip,
   Tree
@@ -65,3 +68,7 @@ Vue.use(Button)
   .use(Tag)
   .use(Tree)
   .use(Cascader)
+  .use(Alert)
+  .use(Tabs)
+  .use(Alert)
+  .use(TabPane)
