@@ -6,6 +6,8 @@ import {
   Button,
   Card,
   Cascader,
+  Checkbox,
+  CheckboxGroup,
   Col,
   Container,
   Dialog,
@@ -23,6 +25,8 @@ import {
   Pagination,
   Row,
   Select,
+  Step,
+  Steps,
   Submenu,
   Switch,
   Table,
@@ -31,7 +35,8 @@ import {
   Tabs,
   Tag,
   Tooltip,
-  Tree
+  Tree,
+  Upload
 } from 'element-ui'
 import Vue from 'vue'
 
@@ -72,3 +77,8 @@ Vue.use(Button)
   .use(Tabs)
   .use(Alert)
   .use(TabPane)
+  .use(Steps)
+  .use(Step)
+  .use(CheckboxGroup)
+  .use(Checkbox)
+  .use(Upload)

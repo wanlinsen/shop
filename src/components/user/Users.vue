@@ -283,7 +283,7 @@ export default {
       if (res.meta.status !== 200) return this.$message.error(res.meta.message)
       // console.log(res)
       this.userlist = res.data.users
-      // this.total = res.data.total
+      this.total = res.data.total
     },
     //监听pagesize改变的事件
     handleSizeChange (newSize) {
