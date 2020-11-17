@@ -34,6 +34,8 @@ import {
   TabPane,
   Tabs,
   Tag,
+  Timeline,
+  TimelineItem,
   Tooltip,
   Tree,
   Upload
@@ -82,3 +84,5 @@ Vue.use(Button)
   .use(CheckboxGroup)
   .use(Checkbox)
   .use(Upload)
+  .use(Timeline)
+  .use(TimelineItem)
