@@ -8,6 +8,7 @@ import Login from '../components/Login.vue'
 import Order from '../components/order/Order.vue'
 import Rights from '../components/power/Rights.vue'
 import Roles from '../components/power/Roles.vue'
+import Report from '../components/report/Report.vue'
 import Users from '../components/user/Users.vue'
 import Welcome from '../components/Welcome.vue'
 Vue.use(VueRouter)
@@ -65,6 +66,10 @@ const routes = [
       {
         path: '/orders',
         component: Order
+      },
+      {
+        path: '/reports',
+        component: Report
       }
     ]
   }
